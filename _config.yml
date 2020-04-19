@@ -11,9 +11,9 @@ locale:             en_US
 
 # bundle exec jekyll serve
 
-# test url
-# url:                https://silofox.github.io/
-url:                http://127.0.0.1:4000/
+# url
+url:                https://silofox.github.io/
+# url:                http://127.0.0.1:4000/
 
 # Jekyll
 permalink:          /:title/
