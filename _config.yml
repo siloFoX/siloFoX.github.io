@@ -1,7 +1,7 @@
 # Site
 title:              SiloFox
-bio:                'bio'
-description:        "decription"
+bio:                '아직 수정할 부분이 많은 블로그네요.. 2020-04-20'
+description:        "잘 좀 해보자!"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -38,19 +38,19 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
-github-url:         username
+# twitter:            
+facebook:           profile.php?id=100024322641127
+github-url:         siloFoX
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          silofox1.0
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+# steam:              
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
