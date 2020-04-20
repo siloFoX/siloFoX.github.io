@@ -34,7 +34,7 @@ sass:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "silofox"
+    shortname: "silofox-github-io"
 
 # Social
 # if you don't have any of social below, comment the line.
