@@ -31,10 +31,10 @@ sass:
   style:            compressed
 
 # Comments
-# disqus_shortname:   silofox
-comment:
-    type:           disqus
-    shortname:      silofox
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "silofox"
 
 # Social
 # if you don't have any of social below, comment the line.
