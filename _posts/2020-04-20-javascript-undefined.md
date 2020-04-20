@@ -93,9 +93,13 @@ undefined 가 나옵니다.
 저런 자그마한(?) 오류 때문에 웹 자체가 실행이 멈춰버리면 난감한 상황이 발생하겠죠.
 
 그래서 JS에서는 저런 초기화하지 않은 변수에 임의로 undefined를 넣어버린 것입니다.
+
+재밌는 점은 type을 체크해도 undefined 로 나옵니다. type 자체도 정해지지 않았다는 것이죠.
+
+이 부분에서 null 과 다른 점이 발생합니다. 
 <br><br><br>
 
-null 과의 차이점은 여기 블로그를 참고하시면 좋을 것 같습니다. 
+null 과의 자세한 차이점은 여기 블로그를 참고하시면 좋을 것 같습니다. 
 (반드시 구분해서 쓰는 것이 좋습니다.)
 
 [Javascript의 undefined는 정확히 무슨 뜻일까? (null vs undefined)](https://siyoon210.tistory.com/148)
