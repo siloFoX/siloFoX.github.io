@@ -1,6 +1,6 @@
 # Site
 title:              SiloFox
-bio:                '아직 수정할 부분이 많은 블로그네요.. 2020-04-20'
+bio:                'first post! 2020-04-20'
 description:        "잘 좀 해보자!"
 reading_time:       true
 words_per_minute:   200
@@ -31,7 +31,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   silofox
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -57,8 +57,8 @@ instagram:          silofox1.0
 #foursquare:        username
 # steam:              
 #dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
+# youtube:           username
+youtube-channel:    UCbH1WibCcg5-lZD9vVaMT0A
 #soundcloud:        username
 #weibo:             username
 #flickr:            username

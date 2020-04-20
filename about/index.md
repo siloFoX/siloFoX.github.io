@@ -1,12 +1,26 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
+title: About this blog
+tags: [about, Jekyll, theme, silofox, blog]
 date: 2016-03-21
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+
+<center><a href = "https://github.com/siloFoX"><font size = "6"><b>Go to SiloFox's GitHub</b></font></a></center>
+<br><br>
+
+
+# Blog Timeline (reverse)
+
+
+    2020-04-20 favicon, 여러가지 버튼 링크 수정, first post
+    2020-04-07 Moon theme 선택 후 블로그 개설
+    그 이전 CRG 페이지를 위해서 github.io 를 잠시 디버깅 용으로 쓰고 있었음
+    ...
+
+---
+
+## Moon theme
 
 ## Features
 * Minimal, you can focus on your content
