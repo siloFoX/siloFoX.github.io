@@ -31,10 +31,7 @@ sass:
   style:            compressed
 
 # Comments
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "silofox-github-io"
+disqus_shortname : silofox-github-io
 
 # Social
 # if you don't have any of social below, comment the line.
