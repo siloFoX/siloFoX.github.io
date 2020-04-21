@@ -13,6 +13,9 @@ comments: false
 # Blog Timeline (reverse)
 
 
+    2020-04-21 project algo-rhythm 등록, 주소에 한글 넣지 말자
+    2020-04-21 project SeeLock 등록
+    2020-04-21 google analytics, search console, sitemap 적용
     2020-04-20 favicon, 여러가지 버튼 링크 수정, first post
     2020-04-07 Moon theme 선택 후 블로그 개설
     그 이전 CRG 페이지를 위해서 github.io 를 잠시 디버깅 용으로 쓰고 있었음
