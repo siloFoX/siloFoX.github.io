@@ -38,4 +38,6 @@ comments: true
 
 음악을 정리하려고 들어오면 알고리즘 공부도 같이 올리는 거다.
 
-[백준 1065 한수 1](https://silofox.github.io//algorhythm-baekjoon-1065-1/)
+
+### brute force
+- [백준 1065 한수 1](https://silofox.github.io//algorhythm-baekjoon-1065-1/)
