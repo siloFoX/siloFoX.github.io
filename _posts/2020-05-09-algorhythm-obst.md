@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Algo-Rhythm optimal binnary search tree (최적이진트리)"
-date:   2020-04-21
-excerpt: "이진 트리 구성을 최적으로 하는 법과 DP(Dynamic Programming"
+date:   2020-05-09
+excerpt: "이진 트리 구성을 최적으로 하는 법과 DP(Dynamic Programming)"
 tag:
 - c++
 - algorithm
