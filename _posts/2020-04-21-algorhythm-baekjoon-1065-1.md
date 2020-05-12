@@ -16,9 +16,7 @@ tag:
 comments: true
 ---
 
-추천 노래는 Jamiroquai - Virtual Insanity
-
-[Jamiroquai - Virtual Insanity (Official Video)](https://www.youtube.com/watch?v=4JkIs37a2JE&list=RDMM5vJn8o2fz6g&index=14)
+추천 노래는 Jamiroquai - [Virtual Insanity](https://youtu.be/4JkIs37a2JE)
 
 피아노와 함께 펑키하게 깔리는 명곡<br>
 틀어놓고 알고리즘 문제를 구경하자.<br>
