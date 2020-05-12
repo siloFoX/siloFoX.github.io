@@ -14,6 +14,7 @@ tag:
 - blog
 - silofox
 comments: true
+feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/algo-rhythm/algo-rhythm-feature.jpg?raw=true
 ---
 
 ## 미완 Optimal Binary Search Tree

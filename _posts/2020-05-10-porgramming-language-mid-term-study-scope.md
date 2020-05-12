@@ -13,6 +13,7 @@ tag:
 - blog
 - silofox
 comments: true
+feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/programming-language/programming-language-feature.jpg?raw=true
 ---
 
 ## Chapter 8 Scope, Functions, and Storage management

@@ -21,7 +21,7 @@ tag:
 - blog
 - silofox
 comments: true
-feature: 
+feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/programming-language/programming-language-feature.jpg?raw=true
 ---
 
 (2020) 5월 12일 중간고사가 끝나고 다시 수업에 들어갔다.
