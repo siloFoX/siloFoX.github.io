@@ -11,6 +11,7 @@ tag:
 - silofox
 - "null"
 comments: true
+feature : true
 ---
 
 ## JavaScript undefined 가 무엇일까?

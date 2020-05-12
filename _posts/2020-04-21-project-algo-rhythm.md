@@ -13,6 +13,7 @@ tag:
 - project
 - silofox
 comments: true
+feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/algo-rhythm/algo-rhythm-feature.jpg?raw=true
 ---
 
 ## Algo-rhythm 개론

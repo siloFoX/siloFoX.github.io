@@ -14,6 +14,7 @@ tag:
 - blog
 - silofox
 comments: true
+feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/algo-rhythm/algo-rhythm-feature.jpg?raw=true
 ---
 
 추천 노래는 Jamiroquai - [Virtual Insanity](https://youtu.be/4JkIs37a2JE)
