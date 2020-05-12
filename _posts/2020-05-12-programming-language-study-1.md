@@ -155,6 +155,8 @@ Backus Normal Form 또는 Backus-Naur Form 이라고 한다.<br>
 
 <br>
 
+---
+
 ### 9.1.2 Structured Control 
 
 Fundamental question : What should be done if control transfer to the middle of a block? <br>
