@@ -105,3 +105,4 @@ in the form of testable explanations and predictions about the universe.<br>
 >
 반복가능해야 객관성을 유지할 수 있다.
 >
+
