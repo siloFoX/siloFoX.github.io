@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "history of scince study 1"
+title:  "history of science study 1"
 date:   2020-05-13
 excerpt: "인간과 과학"
 tag:
+- history of science
+- mid-term
+- 중간고사
 - blog
 - silofox
 comments: true
