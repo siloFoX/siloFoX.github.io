@@ -4,6 +4,11 @@ title:  "Computer Architecture study 1"
 date:   2020-05-16
 excerpt: "컴퓨터 구조 개론"
 tag:
+- computer architecture
+- 컴퓨터 구조
+- RISC
+- CISC
+- ISA
 - blog
 - silofox
 comments: true
