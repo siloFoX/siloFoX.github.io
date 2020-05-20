@@ -18,6 +18,8 @@ comments: true
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/computer-architecture/computer-architecture-feature.jpg?raw=true
 ---
 
+2020-03-19 Lecture 1-2
+
 목표 : 컴퓨터 시스템의 구성과 그 설계 과정에서 취해지는 트레이드오프에 대한 이해
 
 말이 어렵다 우선 트레이드오프가 뭔지 찾아보기 전에<br>

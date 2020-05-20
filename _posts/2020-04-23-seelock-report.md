@@ -5,6 +5,7 @@ date:   2020-04-21
 excerpt: "SeeLock 버그와 요구사항"
 tag:
 - mean 
+- mean stack
 - mongodb
 - mongo
 - node
