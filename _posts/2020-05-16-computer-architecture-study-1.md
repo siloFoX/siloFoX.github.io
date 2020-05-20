@@ -22,6 +22,8 @@ feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/compute
 교재는 Computer Organization and Design The Hardwar/Software Interface Fifth Edition<br>
 (David A. Patterson, John L. Hennessy) 입니다.
 
+2020-03-18 Lecture 1-1
+
 <br>
 
 # 개론

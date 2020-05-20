@@ -6,6 +6,7 @@ excerpt: "Mean stack 기반 공정관리 프로그램"
 project: true
 tag:
 - mean 
+- mean stack
 - mongodb
 - mongo
 - node
