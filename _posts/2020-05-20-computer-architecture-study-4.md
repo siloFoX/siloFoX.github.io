@@ -2,15 +2,15 @@
 layout: post
 title:  "Computer Architecture study 4"
 date:   2020-05-20
-excerpt: ""
+excerpt: "논리회로 복습 MUX 그리고 Register file 과 Clock"
 tag:
 - computer architecture
 - 컴퓨터 구조
 - 조합회로
 - MUX
 - Decoder
+- Register file
 - Clock
-- 
 - blog
 - silofox
 comments: true
