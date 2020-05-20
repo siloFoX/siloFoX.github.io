@@ -2,7 +2,7 @@
 layout: post
 title:  "Computer Architecture study 3"
 date:   2020-05-17
-excerpt: ""
+excerpt: "프로세서의 변천사와 Piplined, Superscalar, Out-of-order"
 tag:
 - computer architecture
 - 컴퓨터 구조
