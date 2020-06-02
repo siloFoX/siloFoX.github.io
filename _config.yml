@@ -1,7 +1,7 @@
 # Site
 title:              SiloFox
-bio:                '조금 더 의욕을 가져보자 2020-05-10'
-description:        "코로나 사라져라...ㅜ"
+bio:                '내가 좋아하는게 나를 좋아하길 2020-06-02'
+description:        "자기관리"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -12,8 +12,8 @@ locale:             en_US
 # bundle exec jekyll serve
 
 # url
-url:                https://silofox.github.io/
-# url:                http://127.0.0.1:4000/
+# url:                https://silofox.github.io/
+url:                http://127.0.0.1:4000/
 
 # Jekyll
 permalink:          /:title/
