@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Computer network 기말 정리"
+title:  "Computer network 기말 정리 1"
 date:   2020-06-14
 excerpt: "발등에 불 떨어진 공대생"
 tag:
