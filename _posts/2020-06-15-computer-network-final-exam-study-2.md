@@ -52,10 +52,10 @@ routing table 을 사용하는 것. (그러나 routing table 의 유지 보수�
 * 보안 : 모든 layer 에서 제공해줄 수 있고, 어떤 보안인지에 따라 제공하는 보안이 달라진다.
 ```
     5           인증서 보안제공(은행)
-socket/SSL      Socket -> HTTP
-    4           SSL -> HTTPs
-    3           DDoS(Denial of Service) -> IP spooping 방지를 위해 
-    2           WIFI 보안 제공
-    1
+socket/SSL     Socket -> HTTP
+     4           SSL -> HTTPs
+     3           DDoS(Denial of Service) -> IP spooping 방지를 위해 
+     2           WIFI 보안 제공
+     1
 ```
 IP spooping : 남의 IP 를 사용하는 것, 위조된 IP 를 알아보는 보안이 필요하다.
