@@ -2,7 +2,7 @@
 layout: post
 title:  "Computer network 기말 정리 2"
 date:   2020-06-15
-excerpt: "발등에 불 떨어진 공대생"
+excerpt: "제어"
 tag:
 - computer network
 - 컴퓨터 네트워크
