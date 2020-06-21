@@ -432,3 +432,54 @@ e1 and e2 should have type int.
 - Without garbage collection
     - Automatic invoking of destructors as in C++
     - Live with memory leak.
+
+<br>
+
+## Continuation
+
+- Similar to callbacks or upcalls
+- Continuation-passing-style
+- Guy Steele and Gerald Sussman
+
+### 9.3.1 A Function Representing "The Rest of the Program"
+
+- What is the continuation of 1.0/y?
+```js
+function f(x, y) { return 2.0*x + 3.0*y + 1.0/x + 2.0/y; }
+```
+Another version
+```js
+function f(x, y) {
+    let before = 2.0*x + 3.0*y;
+    function conti(q) { return before + q + 2.0/y; };
+    conti(1.0/x);
+}
+```
+
+- Normal continuation and error continuation
+```js
+function divide (n, d, normal_cont, error_cont) {
+    if(d > 0.0001) 
+        return normal_cont(n/d);
+    else
+        return error_cont();
+}
+
+function f(x, y) {
+    let before = 2.0*x + 3.0*y;
+    function conti(q) { return before + q + 2.0/y; }
+    function error_cont() { return before / 5.2; }
+    return divide(1.0, x, conti, error_conti);
+}
+```
+Using exception
+```js
+function f(x, y) {
+    try {
+        return (2.0*x + 3.0*y + 1.0/(x > 0.0001 ? x : throw new Error("Div by zero")));
+    } catch (err) { return (2.0*x + 3.0*y) / 5.2; }
+}
+```
+
+<br>
+
