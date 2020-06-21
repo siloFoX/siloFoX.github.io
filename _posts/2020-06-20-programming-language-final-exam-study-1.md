@@ -441,6 +441,8 @@ e1 and e2 should have type int.
 - Continuation-passing-style
 - Guy Steele and Gerald Sussman
 
+<br>
+
 ### 9.3.1 A Function Representing "The Rest of the Program"
 
 - What is the continuation of 1.0/y?
@@ -457,29 +459,132 @@ function f(x, y) {
 ```
 
 - Normal continuation and error continuation
-```js
-function divide (n, d, normal_cont, error_cont) {
-    if(d > 0.0001) 
-        return normal_cont(n/d);
-    else
-        return error_cont();
-}
 
-function f(x, y) {
-    let before = 2.0*x + 3.0*y;
-    function conti(q) { return before + q + 2.0/y; }
-    function error_cont() { return before / 5.2; }
-    return divide(1.0, x, conti, error_conti);
+    ```js
+    function divide (n, d, normal_cont, error_cont) {
+        if(d > 0.0001) 
+            return normal_cont(n/d);
+        else
+            return error_cont();
+    }
+
+    function f(x, y) {
+        let before = 2.0*x + 3.0*y;
+        function conti(q) { return before + q + 2.0/y; }
+        function error_cont() { return before / 5.2; }
+        return divide(1.0, x, conti, error_conti);
+    }
+    ```
+    Using exception
+    ```js
+    function f(x, y) {
+        try {
+            return (2.0*x + 3.0*y + 1.0/(x > 0.0001 ? x : throw new Error("Div by zero")));
+        } catch (err) { return (2.0*x + 3.0*y) / 5.2; }
+    }
+    ```
+
+<br>
+
+### 9.3.2 Continuation-Passing Form and Tail Recursion
+
+- Passing continuation is passed to a function.
+- The function does not have to return to the caller.
+- Similar to tail call.
+- Transformation of factorial into CPS.
+    ```js 
+    function fact(n) { if (n == 0) return 1 else return n*fact(n-1); }
+    ```
+    - fact(9) calls fact(8)
+    - continuation of fact(8) is λx.9 * x
+    - fact(8) calls fact(7)
+    - continuation of fact(7) is λy.(λx.9 * x)(8 * y)
+    - In general, the continuation of fact(n-1) is the composition of λx.n*x with the continuation of fact(n).
+    ```
+    f(n, k) = if n=0 then k(1) else f(n-1, λx.k(n*x))
+    ```
+    Expanding f(3, λx.x)
+    ```
+    f(3, λx.x) = f(2, λy.((λx.x)(3*y)))
+               = f(1, λx.((λy.3*y)(2*x)))1
+               = 6
+    ```
+- Continuation and tail recursion
+```js
+function fact(n) {
+    function f(n, k) {
+        if (n == 0) return k(1) else return f(n-1, x => k(n*x))
+    }
+    return f(n, (x) => x);
 }
 ```
-Using exception
+- Consider space requirement, and compare with the following
 ```js
-function f(x, y) {
-    try {
-        return (2.0*x + 3.0*y + 1.0/(x > 0.0001 ? x : throw new Error("Div by zero")));
-    } catch (err) { return (2.0*x + 3.0*y) / 5.2; }
+function fact(n) {
+    function f(n, k) {
+        if (n == 0) return k else return f(n-1, n*k)
+    };
+    return f(n, 1);
 }
 ```
 
 <br>
 
+## 9.4 Functions and Evaluation Order
+
+- Example
+```js
+function f(x, y) { ...x...y... }
+f(e1, e2);
+```
+
+- the value of y is necessary only if the value of x meets some condition 
+- the evalution of e2 is expensive
+```js
+function fun(x, y) { ...x...Force(y)... }
+f(e1, Delay(e2));
+```
+
+- Two topics :
+    - Expressing Delay and Force in conventional programming languages
+    
+    ```js
+    function Delay(e) { return () => e; }
+    function Force(e) { e(); }
+
+    function time_consuming(n) {
+        function tak(x, y, z) {
+            if (x <= y) return y;
+            else return tak(tak(x-1, y, z), tak(y-1, z, x), tak(z-1, x, y));
+        }
+        tak(3*n, 2*n, n)
+    }
+
+    function fib (n) {
+        if (n == 0 || n == 1) return 1;
+        else return fib(n-1) + fib(n-2);
+    }
+    function odd(n) { return (n mod 2) == 1; }
+    function f(x, y) { if odd(x) return 1 else fib(y()); }
+    f(fib(9), time_consuming(9));
+
+    function lazy_f (x, y) { if odd(x) return 1 else fib(y()); }
+    lazy_f(fib(9), () => time_consuming(9));
+    ```
+
+- If a delyed values is needed more than once... : transmission-by-need, put flag using properties
+
+    ```js
+    function Delay (e) { return { expr : () => e, val : undefined }; }
+    function force (d) {
+        let v = ev(d);
+        if(d.val == undefined) { d.val = v; }
+        return v;
+    }
+    function ev ({expr : e, val : s }) {
+        if (s == undefined) return e(); else return s;
+    }
+
+    let d = Delay(time_consuming(9));
+    force(d);
+    ```
