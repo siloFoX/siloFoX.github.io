@@ -2,7 +2,7 @@
 layout: post
 title:  "Programming language final exam study 1"
 date:   2020-06-20
-excerpt: ""
+excerpt: "Control"
 tag:
 - PL
 - programming language
