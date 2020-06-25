@@ -13,8 +13,6 @@ comments: true
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/history-of-science/history-of-science-feature.jpg?raw=true
 ---
 
-미완
-
 # 근대 생물학의 발전
 
 목차
