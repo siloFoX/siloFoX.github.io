@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AI framework"
+title:  "AI framework Development 1"
 date:   2020-08-31
 excerpt: "이제 시작"
 tag:
