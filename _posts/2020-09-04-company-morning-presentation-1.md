@@ -7,7 +7,7 @@ tag:
 - blog
 - silofox
 comments: true
-feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/help/help.jpg?raw=true
+feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/diary/diary-feature.jpg?raw=true
 ---
 
 회사에서 아침에 한명씩 얘기하는 시간이 있다.<br>
