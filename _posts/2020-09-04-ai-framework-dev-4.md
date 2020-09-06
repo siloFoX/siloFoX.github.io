@@ -15,7 +15,7 @@ feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/help/he
 # 하..
 
 2020 9월 4일 기준이다.<br>
-통계에서 콜롬비아는 제외하기로 했다.
+통계에서 콜롬비아와 터키는 제외하기로 했다.
 
 <br>
 
@@ -125,6 +125,7 @@ USD 기준이다.
 46695.34986,
 66566.72632,
 47226.08766,
+몰라(터키도 빼 ㅠㅠㅠ),
 65835.57764
 
 <br>
