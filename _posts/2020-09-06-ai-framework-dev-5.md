@@ -12,6 +12,12 @@ comments: true
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/help/help.jpg?raw=true
 ---
 
+# 6에서 싹 정리했으니 이건 거의 무시해도 될 듯
+
+<br>
+<br>
+<br>
+
 # 첫 모델을 위한 전처리
 
 프레임워크 내에서 할 수 있는지 일단 모르기 때문에 그냥 내가 짜는 중<br>
