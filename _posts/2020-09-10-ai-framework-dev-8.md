@@ -12,6 +12,8 @@ comments: true
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/help/help.jpg?raw=true
 ---
 
+test commit
+
 공모전 기간이 생각보다 빡빡하기 때문에 서두르는게 좋을 것 같다.<br>
 함수화 시키는 것도 슬슬 생각하는 것이 좋을 것 같다.
 
