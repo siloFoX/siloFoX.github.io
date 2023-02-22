@@ -51,3 +51,10 @@ comments: true
 
 <br>
 이러한 과정으로 현재 IDE 어플을 사용해서 편집하고있다.
+<br>
+<b>부연설명</b>
+<br>
+1 : Google 을 통해서 스마트폰에서 코딩하는 것을 찾아보니 죄다 Web IDE 를 추천해줬다. 물론 그것도 좋지만 내가 원하는 것은 스마트폰을 일반적인 PC 환경처럼(정확히는 내가 사용하는 환경 : VScode 랑 terminal 그리고 약간의 mockup test 환경) 해놓고 싶었다. 그래서 가장 편하게 생각이 난게 어차피 Android 는 Linux kernel 위에서 동작한다고 하니까 AArch64 용 Ubuntu 랑 dual booting 시키면 되겠다는 것이었다. <br>
+
+<br>
+(미완)
