@@ -9,6 +9,10 @@ tag:
 - blog
 - silofox
 comments: true
+lastmod : 2020-09-06
+sitemap : 
+  changefreq : never
+  priority : 1.0
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/help/help.jpg?raw=true
 ---
 

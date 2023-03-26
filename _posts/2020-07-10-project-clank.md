@@ -10,6 +10,10 @@ tag:
 - seelock
 - silofox
 comments: true
+lastmod : 2020-07-10
+sitemap : 
+  changefreq : never
+  priority : 1.0
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/clanck/clank-feature.jpg?raw=true
 ---
 

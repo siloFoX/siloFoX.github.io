@@ -25,6 +25,10 @@ tag:
 - blog
 - silofox
 comments: true
+lastmod : 2023-03-26
+sitemap : 
+  changefreq : weekly
+  priority : 1.0
 ---
 
 저번 편에 이어서 SW 관한 부분을 적으려 한다.<br>
@@ -74,4 +78,6 @@ comments: true
 그렇게 해서 최종적으로 Spck Editor 에서 이 post 도 작성하고 있다. 생각보다 제약사항이 많은 것 같았다. 정보처리기사 공부도 하고 만들고 싶은 것이 생기면 이것저것 만들어볼 예정이다. 지금 생각으로는 청소표를 알아서 짜주는 프로그램 정도 생각 중이다.<br>
 
 2023-03-17 현재 키보드와 OTG 승인을 마쳤다.
-다음은 이 Blog 를 검색 시스템에 노출시켜봐야겠다.
+다음은 이 Blog 를 검색 시스템에 노출시켜봐야겠다.<br>
+
+2023-03-26 핸드폰 환경이 키보드에 friendly 하지 않다는 것이 불편사항으로 되어서 이번에는 Pointing device 로 바꾸기로 했다. Mouse 를 샀다는 뜻이다.

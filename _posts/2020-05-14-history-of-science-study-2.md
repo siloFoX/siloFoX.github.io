@@ -10,6 +10,10 @@ tag:
 - blog
 - silofox
 comments: true
+lastmod : 2020-05-14
+sitemap : 
+  changefreq : never
+  priority : 1.0
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/history-of-science/history-of-science-feature.jpg?raw=true
 ---
 

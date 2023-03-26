@@ -25,6 +25,10 @@ tag:
 - blog
 - silofox
 comments: true
+lastmod : 2023-03-20
+sitemap : 
+  changefreq : never
+  priority : 1.0
 ---
 
 그렇다 군입대를 했다. 코딩을 할 수 없는 환경에 직면했지만, 그것은 훈련소까지 일 뿐 device 와 network 가 지원되는 한 코딩을 막을 수는 없다.

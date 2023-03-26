@@ -21,6 +21,10 @@ tag:
 - blog
 - silofox
 comments: true
+lastmod : 2020-05-12
+sitemap : 
+  changefreq : never
+  priority : 1.0
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/programming-language/programming-language-feature.jpg?raw=true
 ---
 

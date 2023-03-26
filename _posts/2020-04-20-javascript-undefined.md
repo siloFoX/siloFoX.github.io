@@ -11,6 +11,10 @@ tag:
 - silofox
 - "null"
 comments: true
+lastmod : 2020-04-20
+sitemap : 
+  changefreq : never
+  priority : 1.0
 feature : true
 ---
 

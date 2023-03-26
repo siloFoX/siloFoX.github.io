@@ -16,6 +16,10 @@ tag:
 - blog
 - silofox
 comments: true
+lastmod : 2020-05-17
+sitemap : 
+  changefreq : never
+  priority : 1.0
 feature: https://github.com/siloFoX/siloFoX.github.io/blob/master/images/computer-architecture/computer-architecture-feature.jpg?raw=true
 ---
 
