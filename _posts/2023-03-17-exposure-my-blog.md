@@ -2,7 +2,7 @@
 layout: post
 title:  "Exposure my blog"
 date:   2023-03-17
-excerpt: "검색엔진(구글)에 내 블로그를 노출시켜보자
+excerpt: "검색엔진(구글)에 내 블로그를 노출시켜보자"
 tag:
 - coding
 - sitemap
