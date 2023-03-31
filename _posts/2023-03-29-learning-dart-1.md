@@ -8,6 +8,7 @@ tag:
 - dart
 - google
 - flutter
+- dart
 - git
 - github
 - blog
@@ -73,4 +74,4 @@ typedef 로 함수의 원형을 선언하고(signature 라고 하는 듯) 값으
 
 참고 : first-class citizen 이란 일반적으로 지원하는 operator 를 모두 지원하는 객체를 뜻한다.<br>
 
--미완 :태그 수정 필요-
+다음 포스팅에는 OOP 얘기를 하겠다.
