@@ -14,9 +14,9 @@ tag:
 - blog
 - silofox
 comments: true
-lastmod : 2023-03-30
+lastmod : 2023-03-31
 sitemap : 
-  changefreq : daily
+  changefreq : weekly
   priority : 1.0
 ---
 
@@ -42,7 +42,7 @@ collection if 는 Iterable 객체 안에서 if 를 사용할 수 있어서 T/F �
 
 상수 지정 방식에는 2가지가 있는데 final 과 const 가 있다.
 final 은 런타임에서 정의된다. const 는 빌드타임 때 정의되기 때문에 컴파일 때 값이 나와야 한다.
-NULL 값에 대해서 어떻게 반응하는지 final 이나 const 뒤에 당연히 datatype 을 붙일 수 있지 않을까 공부하면서 알아보려한다.<br>
+NULL 값에 대해서 어떻게 반응하는지 final 이나 const 뒤에 당연히 datatype 을 붙일 수 있지 않을까 공부하면서 알아보려한다.<br> <= 당연히 넣을 수 있었다. (2023-03-31 수정)<br>
 
 Collection type 에는 List, Map, Set 이 있는데 Set 은 말 그대로 중복 없는 값들의 집합을 의미 한다.
 Collection type 은 서로의 타입으로 형변환이 자유롭다고 한다.<br>
