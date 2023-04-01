@@ -56,4 +56,6 @@ import "dart:async"; 해야 쓸 수 있다.
 stream 은 listen 을 하나만 할 수 있고,
 broadcast stream 은 여러 개가 listen 할 수 있다.<br>
 
-stream 을 return 하려면 function 뒤에 async* 를 붙이고, return 형식은 yield 로 해줘야한다. Iterable 관련해서는 복잡한 내용이 더 있어서 나중에 필요할 때 더 파고들 예정이다.
+stream 을 return 하려면 function 뒤에 async* 를 붙이고, return 형식은 yield 로 해줘야한다. Iterable 관련해서는 복잡한 내용이 더 있어서 나중에 필요할 때 더 파고들 예정이다.<br>
+
+그리고 다음 posting 은 드디어 flutter 이다.
