@@ -8,7 +8,6 @@ tag:
 - dart
 - google
 - flutter
-- dart
 - sync
 - async
 - await
@@ -19,7 +18,7 @@ tag:
 comments: true
 lastmod : 2023-04-01
 sitemap : 
-  changefreq : daily
+  changefreq : weekly
   priority : 1.0
 ---
 

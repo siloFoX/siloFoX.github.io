@@ -8,7 +8,6 @@ tag:
 - dart
 - google
 - flutter
-- dart
 - git
 - github
 - blog
