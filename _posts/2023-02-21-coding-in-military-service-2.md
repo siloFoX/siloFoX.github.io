@@ -81,3 +81,10 @@ sitemap :
 다음은 이 Blog 를 검색 시스템에 노출시켜봐야겠다.<br>
 
 2023-03-26 핸드폰 환경이 키보드에 friendly 하지 않다는 것이 불편사항으로 되어서 이번에는 Pointing device 로 바꾸기로 했다. Mouse 를 샀다는 뜻이다.
+
+2023-04-19 VScode for Android 라는 100명 남짓 다운로드 받은 어플을 7,500원에 속는셈 치고 구입해봤다. 사용해봤는데 생각보다 괜찮다. arm64 용 ubuntu kernel 을 지원하고 extension 도 있다. rainbow bracket 도 자동으로 지원되고 vscode 를 열심히 잘 따라했다. 앞으로 발전이 기대되는 어플이다.
+단점도 없는 것은 아닌데,
+1. markdown 파일의 수정이 어렵다. (그래서 apt upgrade 하고 vim 깔아서 수정했다.)
+2. terminal 여는 단축키가 특정 조건에서 씹힌다. 이건 vscode 에서도 있던 문제같은데 아마 조건식으로(termial 에서 ctrl + c 가 copy 가 아닌 cancel 이듯) 처리하다보니 발생하는 것 같다.
+3. reload 시간이 생각보다 길다. 기존 vscode 의 장점이 가벼움인데.. 하지만 환경을 생각하면 괜찮은 수준이긴 하다.
+그 외에는 거의 다 장점이라고 생각한다. 특히 Shortcuts 구현은 감동적이었다. 뭐 그래도 아직 더 써봐야 알 것 같다.

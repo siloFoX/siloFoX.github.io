@@ -18,7 +18,7 @@ tag:
 comments: true
 lastmod : 2023-03-26
 sitemap : 
-  changefreq : weekly
+  changefreq : never
   priority : 1.0
 ---
 
